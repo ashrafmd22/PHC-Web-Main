@@ -1,0 +1,100 @@
+/* body {text-align: center;} */
+/* h2 { font-size: 1.7rem;} */
+/* p {font-size: 1.5rem;} */
+
+
+
+
+.container001 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.text1 {
+  flex: 1 1 100%;
+  text-align: center;
+}
+.text {
+  flex: 1 1 50%;
+  padding-right: 20px;
+  /* text-align: center; */
+}
+
+.image {
+  flex: 1 1 50%;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.animate-in {
+  opacity: 0; /* start with zero opacity */
+  animation: fadeIn 4s ease-in-out forwards; /* apply animation */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px); /* start the div 50px below where it should be */
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0); /* move the div to its final position */
+  }
+}
+
+
+.animate-in {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.animate-in-visible {
+  animation: fadeIn 4s ease-in-out forwards;
+  opacity: 1;
+  transform: translateY(0);
+}
+.slider-container {
+  position: relative;
+  height: 400px;
+}
+
+.slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider-image.active {
+  opacity: 1;
+}
+
+.slider-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.slider-control.prev {
+  left: 20px;
+}
+
+.slider-control.next {
+  right: 20px;
+}
+
