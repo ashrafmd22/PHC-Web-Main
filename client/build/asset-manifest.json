@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da2b6944.css",
+    "main.js": "/static/js/main.77a96fc5.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/phc1.jpg": "/static/media/phc1.41c4557f12782d16a8ab.jpg",
+    "static/media/phc2.jpg": "/static/media/phc2.82e5aa760632aa3d9149.jpg",
+    "static/media/phc3.jpg": "/static/media/phc3.43c268f9f080fea24aa4.jpg",
+    "static/media/PHClogo1.png": "/static/media/PHClogo1.527506258b776067c670.png",
+    "static/media/bgImage4.jpg": "/static/media/bgImage4.e1174e00c9bcc7948d52.jpg",
+    "static/media/compoundersDP.jpg": "/static/media/compoundersDP.bc166c1e5afc8310a92f.jpg",
+    "static/media/AdminsDP.jpg": "/static/media/AdminsDP.84148f8a23f3816a8275.jpg",
+    "static/media/DoctorsDP.png": "/static/media/DoctorsDP.a4af5bb07ac93cfedb14.png",
+    "static/media/GirlPatient.png": "/static/media/GirlPatient.5c3c811a45c7d2d95722.png",
+    "static/media/amb1.jpg": "/static/media/amb1.9a56f2f664cb788fa9eb.jpg",
+    "static/media/medic.avif": "/static/media/medic.a965df2962bfbde70bdf.avif",
+    "index.html": "/index.html",
+    "main.da2b6944.css.map": "/static/css/main.da2b6944.css.map",
+    "main.77a96fc5.js.map": "/static/js/main.77a96fc5.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da2b6944.css",
+    "static/js/main.77a96fc5.js"
+  ]
+}
